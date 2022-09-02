@@ -1,0 +1,30 @@
+*{
+    margin: o;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
+}
+
+.video_fondo{
+    opacity: 0.7;
+}
+
+#videito{
+    width: 100%;
+    border: 2px solid black;
+}
+
+.header {
+    background-size: cover;
+}
+
+.header .navbar {
+    background-color: transparent !important;
+}
+
+#menuNavegacion{
+    font-weight: 900;
+    color: aliceblue;
+}
