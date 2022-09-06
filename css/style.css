@@ -87,8 +87,8 @@ body{
 #seccion1{
     margin-top: 78px;
     background-color: aqua;
-    /*background-image: url("assets/posibleFondo.png");
-    background-size: cover;*/
+    background-image: url("/assets/posibleFondo.png");
+    background-size: cover;
 }
 
 .home1{
