@@ -1,30 +1,152 @@
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
 }
 
 body{
-    background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
+    background-color: black;
 }
 
-.video_fondo{
-    opacity: 0.7;
+#barraDeNavegacion .nav-link{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 400;
 }
 
-#videito{
+#fondo_tattoo{
+    max-height: 100vh;
     width: 100%;
-    border: 2px solid black;
+    margin-top: 1px;
+    opacity: 0.0;
 }
 
-.header {
+.slogan{
+    font-family: 'MuseoModerno', cursive;
+    position: relative;
+    top: -300px;
+    margin-left: 20px;
+    color: red;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.navbar-toggler-icon{
+    color: aliceblue;
+}
+
+.navbar-brand{
+    max-height: 65px;
+    vertical-align: auto;
+}
+
+.navbar-brand .logo{
+    max-height: 60px;
+    width: auto;
+    margin-left: 18PX;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar .nav-link{
+    margin-right: 30px;
+}
+
+.btn-cotizar{
+    background-color: #ffdb58;
+    text-align: center;
+    vertical-align: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    margin-top: 7px;
+    margin-bottom: auto;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.navbar .navbar-nav .nav-link{
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-link::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    background-color: yellow;
+    width: 0%;
+    height: 4px;
+    transition: all .5s;
+}
+
+#seccion1{
+    margin-top: 78px;
+    background-color: aqua;
+    background-image: url("/assets/posibleFondo.png");
     background-size: cover;
 }
 
-.header .navbar {
-    background-color: transparent !important;
+.home1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    position: relative;
+    border: 1px solid black;
 }
 
-#menuNavegacion{
-    font-weight: 900;
-    color: aliceblue;
+.text1 {
+    flex: 1;
+    min-width: 45%;
 }
+
+.img1{
+    flex: 2;
+    min-width: 55%;
+    /*background-image: url(/assets/brazo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+
+.text1{
+    background-color: black;
+    position: relative;
+}
+
+.img1{
+    background-color: rebeccapurple;
+}
+
+#brazo1{
+    opacity: 0.0;
+}
+
+.bienvenido{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-family: 'MuseoModerno', cursive;
+    color: white;
+}
+
+.contenido{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    padding-right: 10%;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    color: white;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+#killpoph1{
+    font-size: 1.5rem;
+}
+
+

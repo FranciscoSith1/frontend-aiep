@@ -1,19 +1,26 @@
-<header class="header">
+<div>
     <nav
-        class="navbar navbar-expand-md navbar-dark bg-dark border-3 border-bottom"
+        class="navbar navbar-expand-lg navbar-dark fixed-top"
+        id="barra_principal"
     >
         <div class="container-fluid">
-            <a href="#" class="navbar-brand"><img src="/assets/killpoph.svg" alt="logo" height="100px"></a>
+            <a class="navbar-brand" href="#"
+                ><img src="/assets/killpoph.svg" alt="logo" height="100px"
+            /></a>
             <button
                 type="button"
                 class="navbar-toggler"
                 data-bs-toggle="collapse"
                 data-bs-target="#menuNavegacion"
+                aria-controls="menuNavegacion"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
             >
-                <span class="navbar-toggler-icon"></span>
+                Menu
+                <i class="fas fa-bars ms-1"></i>
             </button>
             <div id="menuNavegacion" class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Inicio</a>
                     </li>
@@ -33,4 +40,4 @@
             </div>
         </div>
     </nav>
-</header>
+</div>

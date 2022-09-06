@@ -12,29 +12,156 @@
             integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
 
     <body>
-            <div id="cabecera"></div>
+        <!-- +++++++++++++++++++++++++++++++ NAVBAR ++++++++++++++++++++++++++++++ -->
 
-            <section class="video_fondo">
-                <video id="videito" src="video_killpoph.mp4" type="video/mp4" autoplay muted loop></video>
-                <!--IMAGEN DE FONDO ESTATICA (SIN IMPORTAR EL SCROLL LA IMAGEN PERMANECE FIJA)-->
-            </section>
-            <section>
-                <!--carusel con imagenes -->
-            </section>
-            <section>
-                <!-- imagen tipo parallax del estudio-->
-            </section>
-            <section>
-                <!-- mapa de ubicacion-->
-            </section>
-            
-            <div id="footer"></div>
+        <!-- El primer "div" sostiene la etiqueta "nav"-->
+        <div id="barraDeNavegacion">
+            <!-- la etiqueta nav es la que da comienzo al nav bar y en su clase podemos ver=... 
+            Etiqueta "navbar", la cual indica el tipo de elemento.
+            Etiqueta "navbar-expand-lg" la cual define la dimension desde la cual la barra se expondra desplegada.
+            Etiqueta bg-dark indica el color de fondo.-->
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container-fluid">
+                    <!-- "navbar-brand" hace referencia al logo del sitio-->
+                    <a class="navbar-brand" href="#"
+                        ><img src="/assets/logo3.png" alt="logo" class="logo"
+                    /></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavAltMarkup"
+                    >
+                        <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >INICIO</a
+                            >
+                            <a class="nav-link" href="#">EXPERIENCIA</a>
+                            <a class="nav-link" href="#">PORTAFOLIO</a>
+                            <a class="nav-link" href="#">CONTACTO</a>
+                            <a href="#">
+                                <button class="btn-cotizar" type="button">
+                                    COTIZAR
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section class="container-fluid" id="seccion1">
+            <img
+                class="img-fluid"
+                src="/assets/posibleFondo.png"
+                alt="fondo_1"
+                id="fondo_tattoo"
+            />
+            <div class="slogan">
+                <h1></h1>
+            </div>
+            <!--<div>
+                <botton type="button" class="btn-cotiza">Cotiza</botton>
+            </div>-->
+        </section>
+        <section class="home1">
+            <div class="text1">
+                <img
+                    src="/assets/brazo.jpg"
+                    alt="brazo1"
+                    class="img-fluid"
+                    id="brazo1"
+                />
+                <div class="bienvenido">
+                    <h2 id="presentacion">Bienvenidos</h2>
+                </div>
+                <div class="contenido">
+                    <h5 id="killpoph1" class="text-break">
+                        <!--Soy <strong>Killpoph</strong>, me dedico al arte del
+                        tatuaje hace aproximadamente 6 años. El estilo que
+                        desarrollo es el realismo en blanco y negro.-->
+                    </h5>
+                </div>
+            </div>
+            <div class="img1">
+                <img src="/assets/brazo.jpg" alt="brazo" class="img-fluid" />
+            </div>
+        </section>
+        <section>
+            <div
+                id="carouselExampleInterval"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/assets/img-carrusel/img1-rec.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/img-carrusel/img2-rec.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img-carrusel/img3-rec.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section>
+            <!-- mapa de ubicacion-->
+        </section>
 
+        <!--<div id="footer"></div>-->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
