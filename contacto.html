@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Killpoph Tattoo</title>
+        <title>Contacto</title>
         <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -11,7 +11,7 @@
             integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="css/estilos.css" />
+        <link rel="stylesheet" href="css/estilos_contact.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -49,7 +49,9 @@
                             <a class="nav-link" href="#">Tatuajes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link" href="contacto.html"
+                                >Contacto</a
+                            >
                         </li>
                     </ul>
                     <button class="btn btn-primary ms-lg-3">Cotizar</button>
@@ -58,75 +60,48 @@
         </nav>
         <!--------------------- //NAVBAR --------------------------->
 
-        <!-- HERO PORTADA-->
+        <!------------- FORMULARIO DE CONTACTO --------------------->
         <div class="hero vh-100 d-flex align-items-center">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 mx-auto text-center">
-                        <h1 class="display-4">Lorem, ipsum dolor sit amet</h1>
-                        <p class="text-white my-4">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Quia, sapiente eveniet ut rerum maxime
-                            molestias ab nesciunt qui? Nobis quidem magni vitae
-                            ipsum consequuntur? Possimus, fugiat. Debitis facere
-                            accusamus consectetur.
-                        </p>
-                        <a href="#" class="btn btn-primary me-3">Cotizar</a>
-                        <a href="#" class="btn btn-outline-light">Siguenos</a>
-                    </div>
+                <div>
+                    <h2 class="text-center mt-5 shadow-sm p-3">Contáctanos</h2>
                 </div>
-            </div>
-        </div>
 
-        <section id="seccion">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 mx-auto text-center">
-                        <h1>Nuestros Servicios</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Cupiditate ducimus dicta, sint temporibus
-                            adipisci dolorem rerum porro, ullam vitae incidunt
-                            suscipit
-                        </p>
+                <div class="row bg-light">
+                    <div class="col-md-7 shadow rounded p-5">
+                        <div class="row">
+                            <div class="col mb-3">
+                                <label class="form-label">Nombre</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col mb-3">
+                                <label class="form-label">Apellido</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="col mb-3">
+                                <label class="form-label">Correo</label>
+                                <input type="email" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="col mb-3">
+                                <label class="form-label">Mensaje</label>
+                                <textarea name="" class="form-control" rows="3"></textarea>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <h5 class="text-center">Black and Grey</h5>
-                            <img
-                                src="/imgs/img3.jpg"
-                                alt="imagen1"
-                                class="img-fluid"
-                            />
-                        </div>
-                        <div class="col-lg-3">
-                            <h5 class="text-center">Neo tradicitonal</h5>
-                            <img
-                                src="/imgs/IMG_9959.jpg"
-                                alt="imagen2"
-                                class="img-fluid"
-                            />
-                        </div>
-                        <div class="col-lg-3">
-                            <h5 class="text-center">Puntillismo</h5>
-                            <img
-                                src="/imgs/img1.jpg"
-                                alt="imagen3"
-                                class="img-fluid"
-                            />
-                        </div>
-                        <div class="col-lg-3">
-                            <h5 class="text-center">Fine Work</h5>
-                            <img
-                                src="/imgs/img4.PNG"
-                                alt="imagen4"
-                                class="img-fluid"
-                            />
+
+                    <div class="col-md-5" id="imagen-costado">
+                        <div class="ml-3">
+                            <img src="/imgs/killpoph-working.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+            <!------------- //FORMULARIO DE CONTACTO --------------------->
+        </div>
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
