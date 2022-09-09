@@ -61,7 +61,7 @@ a {
 }
 
 .hero {
-    background-image: url("img1-rec.jpg");
+    background-image: url("/css/img1-rec.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
