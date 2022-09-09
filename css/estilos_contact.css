@@ -93,3 +93,9 @@ body{
     padding-top: 8rem;
     padding-bottom: 1rem;
 }
+
+textarea{
+    resize: none;
+    overflow: scroll;
+    overflow-x: hidden;
+}
