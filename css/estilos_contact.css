@@ -67,6 +67,7 @@ a {
     background-attachment: fixed;
     position: relative;
     z-index: 2;
+    padding-bottom: 4rem;
 }
 
 #contacto::after {
@@ -98,4 +99,26 @@ textarea{
     resize: none;
     overflow: scroll;
     overflow-x: hidden;
+}
+
+.fa{
+    margin-right: 1rem;
+}
+
+.list-unstyled{
+    margin-left: -36px;
+}
+
+.mapa{
+    border-radius: 35px;
+}
+
+span{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Sora", sans-serif;
+}
+
+#footer{
+    border-top: 1.5px solid white;
 }
