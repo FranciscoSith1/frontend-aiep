@@ -1,0 +1,128 @@
+:root {
+    --primary: #ffdb58;
+    --light: rgb(255, 255, 255);
+    --body: rgb(58, 81, 58);
+    --box-shadow: 0 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: "Sora", sans-serif;
+    line-height: 1.7;
+    color: var(--body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-4 {
+    color: var(--light);
+    font-weight: 700;
+}
+
+p {
+    color: var(--primary);
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: black;
+    border-bottom: 1.5px solid white;
+}
+
+.navbar .logo {
+    width: 160px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.btn {
+    padding: 14px 18px;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+
+#seccion {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+body{
+    background-color: black;
+}
+
+.fa{
+    margin-right: 1rem;
+}
+
+.list-unstyled{
+    margin-left: -36px;
+}
+
+.mapa{
+    border-radius: 35px;
+}
+
+span{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Sora", sans-serif;
+}
+
+#footer{
+    border-top: 1.5px solid white;
+    background-color: black;
+}
+
+#tatuajes-index{
+    border-radius: 30px;
+}
+
+#vertical1 {
+    height: 550px;
+}
+
+#vertical2 {
+    height: 550px;
+}
+
+#vertical3 {
+    height: 550px;
+}
+
+#horizontal1{
+    width: 400px;
+}
+
+#horizontal2{
+    width: 400px;
+}
+
+#horizontal3{
+    width: 400px;
+}
+
+#titulo-tatuajes{
+    font-family: "Sora", sans-serif;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}

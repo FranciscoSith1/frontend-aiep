@@ -64,6 +64,7 @@ a {
     background-image: url("img1-rec.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
     z-index: 2;
