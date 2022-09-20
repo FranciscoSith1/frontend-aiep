@@ -81,9 +81,14 @@ a {
     z-index: -1;
 }
 
-#seccion {
-    padding-top: 100px;
-    padding-bottom: 100px;
+.video-section{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#video{
+    width: 80%;
+    height: auto;
 }
 
 body{
